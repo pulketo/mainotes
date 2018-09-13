@@ -13,7 +13,7 @@ button.single_add_to_cart_button:hover{
 aside h3{border-bottom:1px solid #000000;}
 .tnp-subscription input[type="text"], .tnp-subscription input[type="email"], .tnp-subscription input[type="submit"], .tnp-subscription select{
 	background-color:#FFFFFF;
-	border:1px solid #CCCCCC;
+	border:1px solid #000000;
 	margin-right:10px;
 }
 .tnp-subscription input.tnp-submit{
@@ -56,17 +56,42 @@ padding: 4px 20px;
 	margin:0 50px 0 0;
 }
 .thesocialmenu{
-	/*border:1px solid #f00;*/
-	display:inline;
+	border:1px solid #f00;
 	float:left;
 }
 .theform{
-	/*border:1px dashed #00f;*/
-	display:inline;
+	border:1px dashed #00f;
 	width:580px;
 	float:right;
 }
 .social_buttons_wrapper .tnp-subscription{
 	margin-top:0px;
+}
+.social-extra{
+	text-align:right;
+	margin-right:16px;
+	position:relative;
+	bottom:50px;
+}
+.footer_action{
+	height:200px;
+}
+.tnp-submit{
+	height:30px !important;
+}
+.theform{
+	float:right
+}
+.theform .tnp form label{
+	display:none;
+	float:left;
+}
+.theform input{
+	float:left;
+	margin:0px;
+	padding:5px;
+	display:inline;
+	max-width:160px;
+	
 	
 }
