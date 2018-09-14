@@ -1,0 +1,15 @@
+{
+    "name": "pulketo/mainotes",
+    "description": "Note taking with github",
+    "type": "project",
+    "require": {
+        "nategood/commando": "^0.3.0"
+    },
+    "license": "gplv3",
+    "authors": [
+        {
+            "name": "pulketo",
+            "email": "pulketo@gmail.com"
+        }
+    ]
+}
