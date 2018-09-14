@@ -55,9 +55,14 @@ EOT;
 			// push
 		}
 
-		public function listNotes($dir=".", $nice=false){
+		private function lsNotes($dir="."){
 			$cmd = "find $dir -iname '*'".FILE_EXT." | sed 's/^\.\///g'";
-			echo trim(`$cmd`).PHP_EOL;
+			$o = trim(`$cmd`).PHP_EOL;
+			return $o;
+		}
+		
+		public function listNotes($dir="."){
+			echo lsNotes($dir);
 			exit(0);
 		}
 		
